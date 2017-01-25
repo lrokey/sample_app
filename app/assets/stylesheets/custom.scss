@@ -83,6 +83,18 @@ p {
   }
 }
 
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-light;
+  }
+}
+
 /* miscellaneous */
 .debug_dump{
   clear: both;
@@ -180,3 +192,4 @@ aside {
   width: auto;
   margin-left: 0;
 }
+
