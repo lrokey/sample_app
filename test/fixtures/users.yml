@@ -1,0 +1,4 @@
+michael:
+     name: Michael Scott
+     email: mscott@dundlermifflin.com
+     password_digest: <%= User.digest('password') %>
